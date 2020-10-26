@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
                    EasyPaymentKit is way of accepting credit ad debit card with just a little configuration.
                    DESC
 
-  spec.homepage     = "https://github.com/SaifullahIlyas"
+  spec.homepage     = "https://github.com/SaifullahIlyas/SFSlideableButton"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
