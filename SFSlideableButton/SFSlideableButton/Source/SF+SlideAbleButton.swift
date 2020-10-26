@@ -8,11 +8,12 @@
 
 import UIKit
 
-class SFSlideableButton : UIButton {
+final class SFSlideableButton : UIButton {
     
-    public var slideTitle = "Slide To Action"
+    @IBInspectable  public var slideTitle : String = "Slide To Action"
     public var slideTitleColor : UIColor = .white
-    public var slideImage : UIImage? = UIImage(named: "swipe")
+    public var slideImage : UIImage? = UIImage(named: "swipe", in: Bundle.init(for: SFSlideableButton
+        .self), compatibleWith: nil)
     public var slideButtonFont : UIFont?
     public var roundCornerRadius : CGFloat = 5
     public weak var delegate : SFSlideableButtonDelegate?
