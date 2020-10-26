@@ -41,7 +41,7 @@ EasyPaymentKit is a customisable payment Accept Method comes with pre define UI 
         
  #### Demo 
  
- <img width="3.04in" height="6.46in"
+ <img width="293.76" height="620.16"
 src="https://github.com/SaifullahIlyas/OutPutFiles/blob/master/SFSlideableButton/ezgif.com-gif-maker.gif">
 </img>
  
