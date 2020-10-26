@@ -13,31 +13,28 @@ EasyPaymentKit is a customisable payment Accept Method comes with pre define UI 
    You can also intregrate manually by adding Source file to your Project
    
  ### Sample Use 
- Add following piece of code in your view controller to show Credit or Debit card View
-        
-        let viewController = SFCardVC.init()
-        viewController.theme.SFControllerPresentation = .full
-        viewController.theme.isNegetiveButtonVisible = false
-               viewController.delegate = self
-        self.present(viewController, animated: true, completion: nil)
-        
-   make your you added you payment gateway public key to add Card by 
-   
-        SFConfiguartion.shared.publicKey = "YOUR_PUBLIC_KEY"
-        
-   Conforms your ViewController to <b>SFPaymentInfoAble</b>
-   sample methods are 
-   
-         func didCardCreated(with info: SFCardInfo) {
+ Add button through interface builder or progragramatically. 
+ Assign  <b>SFSlideableButton<b> class to your button  in identity inspector in case of interface builder.
   
-        
-        
-    }
-    
-    func didErrorWhileGeneratingToken(reason error: String) {
+ #### Customiseable Properties
  
-    }
-    
+   <table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table>
         
  #### Demo 
  
