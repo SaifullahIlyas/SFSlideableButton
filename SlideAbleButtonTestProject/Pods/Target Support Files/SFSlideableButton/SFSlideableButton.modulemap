@@ -1,0 +1,6 @@
+framework module SFSlideableButton {
+  umbrella header "SFSlideableButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - SFSlideableButton (0.0.5)
+
+DEPENDENCIES:
+  - SFSlideableButton
+
+SPEC REPOS:
+  trunk:
+    - SFSlideableButton
+
+SPEC CHECKSUMS:
+  SFSlideableButton: 09d22ec1d68da947eb7d4b73b7868ed130b96b4a
+
+PODFILE CHECKSUM: fa238d186e07f6f8878da4e517ba26b9577bda51
+
+COCOAPODS: 1.8.4

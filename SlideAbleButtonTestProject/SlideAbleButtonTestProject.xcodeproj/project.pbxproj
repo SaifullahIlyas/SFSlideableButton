@@ -13,19 +13,8 @@
 		22A0D2412546F4FE00A362EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A0D23F2546F4FE00A362EE /* Main.storyboard */; };
 		22A0D2432546F50100A362EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A0D2422546F50100A362EE /* Assets.xcassets */; };
 		22A0D2462546F50100A362EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A0D2442546F50100A362EE /* LaunchScreen.storyboard */; };
-		22A0D2602546F78200A362EE /* SFSlideableButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A0D25E2546F76C00A362EE /* SFSlideableButton.framework */; };
-		22A0D2612546F78200A362EE /* SFSlideableButton.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22A0D25E2546F76C00A362EE /* SFSlideableButton.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9536A8564CF1306E4D4DF190 /* Pods_SlideAbleButtonTestProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D095B6F7984354AD2BDD1993 /* Pods_SlideAbleButtonTestProject.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		22A0D25D2546F76C00A362EE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 22A0D2592546F76B00A362EE /* SFSlideableButton.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 22A0D21D2546F36200A362EE;
-			remoteInfo = SFSlideableButton;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		22A0D2622546F78300A362EE /* Embed Frameworks */ = {
@@ -34,7 +23,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				22A0D2612546F78200A362EE /* SFSlideableButton.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,6 +30,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0526C643676FFB0249088BF2 /* Pods-SlideAbleButtonTestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlideAbleButtonTestProject.release.xcconfig"; path = "Target Support Files/Pods-SlideAbleButtonTestProject/Pods-SlideAbleButtonTestProject.release.xcconfig"; sourceTree = "<group>"; };
+		0FA1EE7ED660AF1C2C0916BB /* Pods-SlideAbleButtonTestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlideAbleButtonTestProject.debug.xcconfig"; path = "Target Support Files/Pods-SlideAbleButtonTestProject/Pods-SlideAbleButtonTestProject.debug.xcconfig"; sourceTree = "<group>"; };
 		22A0D2362546F4FE00A362EE /* SlideAbleButtonTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideAbleButtonTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22A0D2392546F4FE00A362EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22A0D23B2546F4FE00A362EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +40,7 @@
 		22A0D2422546F50100A362EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22A0D2452546F50100A362EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22A0D2472546F50100A362EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22A0D2592546F76B00A362EE /* SFSlideableButton.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SFSlideableButton.xcodeproj; path = ../SFSlideableButton/SFSlideableButton.xcodeproj; sourceTree = "<group>"; };
+		D095B6F7984354AD2BDD1993 /* Pods_SlideAbleButtonTestProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlideAbleButtonTestProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,20 +48,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22A0D2602546F78200A362EE /* SFSlideableButton.framework in Frameworks */,
+				9536A8564CF1306E4D4DF190 /* Pods_SlideAbleButtonTestProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		104DE75FA05E89FE637EB3F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FA1EE7ED660AF1C2C0916BB /* Pods-SlideAbleButtonTestProject.debug.xcconfig */,
+				0526C643676FFB0249088BF2 /* Pods-SlideAbleButtonTestProject.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		22A0D22D2546F4FE00A362EE = {
 			isa = PBXGroup;
 			children = (
-				22A0D2592546F76B00A362EE /* SFSlideableButton.xcodeproj */,
 				22A0D2382546F4FE00A362EE /* SlideAbleButtonTestProject */,
 				22A0D2372546F4FE00A362EE /* Products */,
 				22A0D25F2546F78200A362EE /* Frameworks */,
+				104DE75FA05E89FE637EB3F2 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,17 +97,10 @@
 			path = SlideAbleButtonTestProject;
 			sourceTree = "<group>";
 		};
-		22A0D25A2546F76B00A362EE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				22A0D25E2546F76C00A362EE /* SFSlideableButton.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		22A0D25F2546F78200A362EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D095B6F7984354AD2BDD1993 /* Pods_SlideAbleButtonTestProject.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,10 +112,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22A0D24A2546F50100A362EE /* Build configuration list for PBXNativeTarget "SlideAbleButtonTestProject" */;
 			buildPhases = (
+				6986D65996D6998EDB24C371 /* [CP] Check Pods Manifest.lock */,
 				22A0D2322546F4FE00A362EE /* Sources */,
 				22A0D2332546F4FE00A362EE /* Frameworks */,
 				22A0D2342546F4FE00A362EE /* Resources */,
 				22A0D2622546F78300A362EE /* Embed Frameworks */,
+				6E86B0AC2973F28C1803ADDB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,28 +154,12 @@
 			mainGroup = 22A0D22D2546F4FE00A362EE;
 			productRefGroup = 22A0D2372546F4FE00A362EE /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 22A0D25A2546F76B00A362EE /* Products */;
-					ProjectRef = 22A0D2592546F76B00A362EE /* SFSlideableButton.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				22A0D2352546F4FE00A362EE /* SlideAbleButtonTestProject */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		22A0D25E2546F76C00A362EE /* SFSlideableButton.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SFSlideableButton.framework;
-			remoteRef = 22A0D25D2546F76C00A362EE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		22A0D2342546F4FE00A362EE /* Resources */ = {
@@ -194,6 +173,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6986D65996D6998EDB24C371 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SlideAbleButtonTestProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E86B0AC2973F28C1803ADDB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SlideAbleButtonTestProject/Pods-SlideAbleButtonTestProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SlideAbleButtonTestProject/Pods-SlideAbleButtonTestProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SlideAbleButtonTestProject/Pods-SlideAbleButtonTestProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		22A0D2322546F4FE00A362EE /* Sources */ = {
@@ -344,6 +365,7 @@
 		};
 		22A0D24B2546F50100A362EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FA1EE7ED660AF1C2C0916BB /* Pods-SlideAbleButtonTestProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -362,6 +384,7 @@
 		};
 		22A0D24C2546F50100A362EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0526C643676FFB0249088BF2 /* Pods-SlideAbleButtonTestProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
