@@ -41,9 +41,9 @@ EasyPaymentKit is a customisable payment Accept Method comes with pre define UI 
         
  #### Demo 
  
- <iframe width="400" height="300"
-src="https://youtu.be/g84wdZ-SVjw>
-</iframe>
+ <img width="200" height="300"
+src="ezgif.com-gif-maker.gif">
+</img>
  
 
 
