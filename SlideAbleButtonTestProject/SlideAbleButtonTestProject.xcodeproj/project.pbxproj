@@ -13,7 +13,33 @@
 		22A0D2412546F4FE00A362EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A0D23F2546F4FE00A362EE /* Main.storyboard */; };
 		22A0D2432546F50100A362EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A0D2422546F50100A362EE /* Assets.xcassets */; };
 		22A0D2462546F50100A362EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A0D2442546F50100A362EE /* LaunchScreen.storyboard */; };
+		22A0D2602546F78200A362EE /* SFSlideableButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A0D25E2546F76C00A362EE /* SFSlideableButton.framework */; };
+		22A0D2612546F78200A362EE /* SFSlideableButton.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22A0D25E2546F76C00A362EE /* SFSlideableButton.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22A0D25D2546F76C00A362EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22A0D2592546F76B00A362EE /* SFSlideableButton.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 22A0D21D2546F36200A362EE;
+			remoteInfo = SFSlideableButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		22A0D2622546F78300A362EE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				22A0D2612546F78200A362EE /* SFSlideableButton.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		22A0D2362546F4FE00A362EE /* SlideAbleButtonTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideAbleButtonTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +50,7 @@
 		22A0D2422546F50100A362EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22A0D2452546F50100A362EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22A0D2472546F50100A362EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22A0D2592546F76B00A362EE /* SFSlideableButton.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SFSlideableButton.xcodeproj; path = ../SFSlideableButton/SFSlideableButton.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22A0D2602546F78200A362EE /* SFSlideableButton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +68,10 @@
 		22A0D22D2546F4FE00A362EE = {
 			isa = PBXGroup;
 			children = (
+				22A0D2592546F76B00A362EE /* SFSlideableButton.xcodeproj */,
 				22A0D2382546F4FE00A362EE /* SlideAbleButtonTestProject */,
 				22A0D2372546F4FE00A362EE /* Products */,
+				22A0D25F2546F78200A362EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +97,21 @@
 			path = SlideAbleButtonTestProject;
 			sourceTree = "<group>";
 		};
+		22A0D25A2546F76B00A362EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22A0D25E2546F76C00A362EE /* SFSlideableButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22A0D25F2546F78200A362EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,6 +122,7 @@
 				22A0D2322546F4FE00A362EE /* Sources */,
 				22A0D2332546F4FE00A362EE /* Frameworks */,
 				22A0D2342546F4FE00A362EE /* Resources */,
+				22A0D2622546F78300A362EE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -113,12 +159,28 @@
 			mainGroup = 22A0D22D2546F4FE00A362EE;
 			productRefGroup = 22A0D2372546F4FE00A362EE /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 22A0D25A2546F76B00A362EE /* Products */;
+					ProjectRef = 22A0D2592546F76B00A362EE /* SFSlideableButton.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				22A0D2352546F4FE00A362EE /* SlideAbleButtonTestProject */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		22A0D25E2546F76C00A362EE /* SFSlideableButton.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SFSlideableButton.framework;
+			remoteRef = 22A0D25D2546F76C00A362EE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		22A0D2342546F4FE00A362EE /* Resources */ = {
