@@ -18,21 +18,36 @@ EasyPaymentKit is a customisable payment Accept Method comes with pre define UI 
   
  #### Customiseable Properties
  
-   <table style="width:100%">
+   <table style="width:400%">
   <tr>
-    <th>Firstname</th>
-    <th>Lastname</th>
-    <th>Age</th>
+    <th>Property</th>
+    <th>Description</th>
+    <th>Availalbe through IB</th>
   </tr>
   <tr>
-    <td>Jill</td>
-    <td>Smith</td>
-    <td>50</td>
+    <td>slideTitle</td>
+    <td>Title of the button i.e "slide to action"</td>
+    <td>YES</td>
   </tr>
   <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>94</td>
+    <td>slideTitleColor</td>
+    <td>Button text color i.e .white</td>
+    <td>NO</td>
+  </tr>
+  <tr>
+    <td>slideImage</td>
+    <td>image on the left slide of slide button which start sliding</td>
+    <td>NO</td>
+  </tr>
+  <tr>
+    <td>slideButtonFont</td>
+    <td>font of the button title</td>
+    <td>NO</td>
+  </tr>
+  <tr>
+    <td>roundCornerRadius</td>
+    <td>Corner radius of the button i.e 5</td>
+    <td>NO</td>
   </tr>
 </table>
         
