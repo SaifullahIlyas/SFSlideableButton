@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SFSlideableButton"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A slideable button to make sure user not perform the action accidentaly."
 
   # This description is used to generate tags and improve search results.
