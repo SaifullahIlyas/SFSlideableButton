@@ -107,7 +107,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  spec.resources = "SFSlideableButton/SFSlideableButton/Sourcegit/*.xcassets"
+  spec.resources = "SFSlideableButton/SFSlideableButton/Source/*.xcassets"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
