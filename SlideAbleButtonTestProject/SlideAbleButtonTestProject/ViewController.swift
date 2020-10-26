@@ -7,11 +7,17 @@
 //
 
 import UIKit
+import SFSlideableButton
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var button: SFSlidesableButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        button.didButtonSlides = {
+            // Implemetation goes here
+        }
         // Do any additional setup after loading the view.
     }
 

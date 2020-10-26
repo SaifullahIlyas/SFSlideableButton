@@ -8,11 +8,11 @@
 
 import UIKit
 
-final class SFSlideableButton : UIButton {
+public final class SFSlidesableButton : UIButton {
     
     @IBInspectable  public var slideTitle : String = "Slide To Action"
     public var slideTitleColor : UIColor = .white
-    public var slideImage : UIImage? = UIImage(named: "swipe", in: Bundle.init(for: SFSlideableButton
+    public var slideImage : UIImage? = UIImage(named: "swipe", in: Bundle.init(for: SFSlidesableButton
         .self), compatibleWith: nil)
     public var slideButtonFont : UIFont?
     public var roundCornerRadius : CGFloat = 5
@@ -39,22 +39,18 @@ final class SFSlideableButton : UIButton {
         self.setTitle("", for: .normal)
         return lable
     }()
-    override func awakeFromNib() {
+    public override func awakeFromNib() {
         super.awakeFromNib()
          setupSideable()
     }
     required init?(coder: NSCoder) {
         super.init(coder: coder)
     }
-    override init(frame: CGRect) {
+   public override  init(frame: CGRect) {
         super.init(frame: frame)
       
     }
    
-    override func layoutSubviews() {
-        super.layoutSubviews()
-         
-    }
    private func setupSideable() {
 
     self.addSubview(slideAbleIcon)
@@ -140,7 +136,7 @@ final class SFSlideableButton : UIButton {
     }
 }
 
-protocol SFSlideableButtonDelegate : class  {
+public protocol SFSlideableButtonDelegate : class  {
     func didButtonSlides(sender:UIView)
 }
 extension UIView {
