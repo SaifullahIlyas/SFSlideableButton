@@ -14,9 +14,9 @@ EasyPaymentKit is a customisable payment Accept Method comes with pre define UI 
    
  ### Sample Use 
  Add button through interface builder or progragramatically. 
- Assign  <b>SFSlideableButton<b> class to your button  in identity inspector in case of interface builder.
+ Assign  <b>SFSlideableButton</b> class to your button  in identity inspector in case of interface builder.
  create outlet of FSlideableButton in case of IB 
- Conform your button to  SFSlideableButtonDelegate and implement the method 
+ Conform your button to  <b>SFSlideableButtonDelegate</b> and implement the method 
          
          func didButtonSlides(sender:UIView){}
   
