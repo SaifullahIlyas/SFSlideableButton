@@ -1,8 +1,8 @@
 # SFSlideableButton
 ### What SFSlideableButton is?
-EasyPaymentKit is a customisable payment Accept Method comes with pre define UI to accept credit, debit card and  Bank Account.
+SFSlideableButton is a slideable button to make sure user not perform the action accidentaly. .
 ### How To Use SFSlideableButton?
-  EasyPaymentKit is Availble through cocoapod
+  SFSlideableButton is Availble through cocoapod
   Add pod in pod file by coping following line 
      
      pod 'SFSlideableButton' 
@@ -16,6 +16,7 @@ EasyPaymentKit is a customisable payment Accept Method comes with pre define UI 
  Add button through interface builder or progragramatically. 
  Assign  <b>SFSlideableButton</b> class to your button  in identity inspector in case of interface builder.
  create outlet of FSlideableButton in case of IB 
+ Get Button slides callback either by Delegate <br>
  Conform your button to  <b>SFSlideableButtonDelegate</b> and implement the method 
          
          func didButtonSlides(sender:UIView){}
@@ -23,6 +24,13 @@ EasyPaymentKit is a customisable payment Accept Method comes with pre define UI 
   finally  assign your viewcontoller or custom view to SFSlideableButtonDelegate
    
        yourButton.delegate = self
+    
+  or By closure way 
+       
+        yourButton.didButtonSlides = {
+            // Implemetation goes here
+        }
+  
        
  
   
