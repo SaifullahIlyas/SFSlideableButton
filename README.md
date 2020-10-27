@@ -28,7 +28,7 @@ SFSlideableButton is a slideable button to make sure user not perform the action
   or By closure way 
        
         yourButton.didButtonSlides = {
-            // Implemetation goes here
+            // Implementation goes here
         }
   
        
