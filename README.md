@@ -12,7 +12,7 @@ SFSlideableButton is a slideable button to make sure user not perform the action
   if your project dont hold pod file then create pod file by pod init
    You can also intregrate manually by adding Source file to your Project
    
- ### Sample Use 
+ ### Sample Usage
  Add button through interface builder or progragramatically. 
  Assign  <b>SFSlideableButton</b> class to your button  in identity inspector in case of interface builder.
  create outlet of FSlideableButton in case of IB 
