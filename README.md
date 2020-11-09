@@ -1,7 +1,7 @@
 # SFSlideableButton
 ### What SFSlideableButton is?
 SFSlideableButton is a slideable button to make sure user not perform the action accidentaly. .
-### How To Use SFSlideableButton?
+### How To Integrate SFSlideableButton?
   SFSlideableButton is Availble through cocoapod
   Add pod in pod file by coping following line 
      
